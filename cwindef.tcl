@@ -32,7 +32,8 @@
 # Set Program Internal Information
 #============================================#
 set	DEBUG		0
-set	Wish		/usr/local/bin/wish8.4
+#set	Wish		/usr/local/bin/wish8.4
+set	Wish		[eval exec wish]
 #-------- Change at your own risk -----------#
 #set	VersionInfo	""
 set	ModuleVersion	"1.4.0";

@@ -1,4 +1,5 @@
 #!/bin/sh
 #
 export TCLLIB="./"
+export TCLINC="./"
 ./totd.tcl "$@" &
