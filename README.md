@@ -7,6 +7,8 @@ Files:
 * cwindef.tcl - common window default, a support library
 * cmesgw.tcl  - common message window (or widget), a support library
 
+Requires wish8.6, but will work with wish8.4 & wish8.5, just change it.
+
 The program expects to find *fortune* in the PATH, if not change line #29.
 
 The following functions keys are defined in *cwindef.tcl*: [F1], [F2], & [F4]
